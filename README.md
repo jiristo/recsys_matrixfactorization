@@ -10,7 +10,7 @@ These datasets will change over time, and are not appropriate for reporting rese
 **The notebook recsys.ipnb** contains code that unzip online data (there is no need to download the data locally).
 
 ## Motivation
-Use collaborative filtering matrix factorization techniques (SVD, NMF, PMF) and recommend n unseen movies to any user in the dataset.
+Use collaborative filtering matrix factorization techniques (SVD, NMF) and recommend n unseen movies to any user in the dataset.
 
 ## Methodology
 SVD and NMF trained a fitted with cross validation and gridsearch methods. The model accuracy is measured with RMSE. 
